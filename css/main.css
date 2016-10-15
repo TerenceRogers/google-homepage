@@ -1,0 +1,79 @@
+/* Google homepage CSS */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+}
+
+#search {
+    display: block;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 475px;
+    padding-top: 20px;
+}
+
+.searchBar {
+    width: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.searchButtons {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ededed;
+    font: Arial;
+    font-weight: bold;
+}
+
+#toolbar {
+    margin-top: 15px;
+    width: 400px;
+    text-align: right;
+    position: absolute;
+    right: 35px;
+}
+
+.toolbarButtons {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#signInButton {
+    background-color: #3783fc;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    position: absolute;
+    right: 35px;
+}
+
+li {
+    margin-left: 5px;
+    display: inline;
+    width: 60px;
+}
